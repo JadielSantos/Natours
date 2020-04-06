@@ -1,5 +1,4 @@
 .row {
-	background-color: #eee;
 	margin: 0 auto;
 	max-width: $grid-width;
 
@@ -13,7 +12,6 @@
 	// * contains
 	// $ ends with
 	[class^="col-"] {
-		background-color: rgb(255, 132, 132);
 		float: left;
 
 		&:not(:last-child) {
