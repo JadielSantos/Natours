@@ -51,6 +51,8 @@
 	&__picture {
 		background-blend-mode: screen;
 		background-size: cover;
+		border-top-left-radius: 3px;
+		border-top-right-radius: 3px;
 		-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 		clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 		height: 23rem;
@@ -125,5 +127,30 @@
 				}
 			}
 		}
+	}
+
+	&__cta {
+		left: 50%;
+		position: absolute;
+		top: 50%;
+		text-align: center;
+		transform: translate(-50%, -50%);
+		width: 90%;
+	}
+
+	&__price-box {
+		color: $color-white;
+		margin-bottom: 8rem;
+		text-align: center;
+	}
+
+	&__price-only {
+		font-size: 1.4rem;
+		text-transform: uppercase;
+	}
+
+	&__price-value {
+		font-size: 6rem;
+		font-weight: 100;
 	}
 }
