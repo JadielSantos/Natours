@@ -1,8 +1,8 @@
 .btn {
 
 	&:active {
-		box-shadow: 0 .5rem 1rem rgba($color-black, .2);
-		transform: translateY(-1px);
+		box-shadow: 0 .5rem 1rem rgba($color-black, .2) !important;
+		transform: translateY(-1px) !important;
 	}
 
 	&::after {
